@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{A4A20BE3-A503-4D03-8928-137000274DF4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PracticeApplication/Controllers/StudentController.cs">
+    <Files>
+      <File FileName="PracticeApplication/Program.cs" />
+      <File FileName="PracticeApplication/Controllers/StudentController.cs" Line="63" Column="32" />
+      <File FileName="PracticeApplication/Model/StudentRepository.cs" />
+      <File FileName="PracticeApplication/Model/StudentDTO.cs" />
+      <File FileName="PracticeApplication/Model/Student.cs" />
+      <File FileName="PracticeApplication/Validators/DateCheckAttribute.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PracticeApplication" expanded="True" selected="True">
+            <Node name="PracticeApplication">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="Validators" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PracticeApplication PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
