@@ -1,4 +1,6 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using PracticeApplication.MyLogging;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
@@ -7,16 +9,22 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<IMyLogger, LogToDB>();
+
+//builder.Services.AddScoped<LogToDB>();
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configure the HTTP request pipelinse.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
+
 app.UseHttpsRedirection();
+
+app.UseStaticFiles();
 
 app.UseAuthorization();
 

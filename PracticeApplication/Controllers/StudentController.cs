@@ -12,7 +12,7 @@ using PracticeApplication.Model;
 namespace PracticeApplication.Controllers
 {
     [Route("api/[controller]")]
-    //[ApiController]
+    [ApiController]
     public class StudentController : ControllerBase
     {
       
@@ -44,6 +44,7 @@ namespace PracticeApplication.Controllers
                 StudenName = s.StudenName,
                 Address = s.Address,
                 Email = s.Email
+                
 
             });
 
