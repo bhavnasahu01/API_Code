@@ -45,6 +45,18 @@ namespace PracticeApplication.Data
                 DOB = new DateTime(2021,10,10)
             }
             });
+
+
+            // manage the Migrate tables with proper schema Datatype, size,
+            modelBuilder.Entity<Student>(entity =>
+            {
+                entity.Property(n => n.StudenName).IsRequired();
+                entity.Property(n => n.StudenName).HasMaxLength(250);
+                entity.Property(n => n.Address).IsRequired(false).HasMaxLength(500);
+                entity.Property(n => n.Email).IsRequired().HasMaxLength(250);
+                entity.Property(n => n.Password).IsRequired();
+            });
+
         }
     }
 }
