@@ -1,31 +1,44 @@
 ﻿<Properties StartupConfiguration="{A4A20BE3-A503-4D03-8928-137000274DF4}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.PracticeApplication PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="PracticeApplication/Controllers/StudentController.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PracticeApplication/Migrations/20250409174537_AddDataToDatabase.cs">
     <Files>
-      <File FileName="PracticeApplication/Program.cs" Line="34" Column="1" />
-      <File FileName="PracticeApplication/Controllers/StudentController.cs" Line="42" Column="1" />
-      <File FileName="PracticeApplication/Model/StudentRepository.cs" Line="23" Column="41" />
-      <File FileName="PracticeApplication/Model/StudentDTO.cs" Line="8" Column="15" />
+      <File FileName="PracticeApplication/Program.cs" />
+      <File FileName="PracticeApplication/Controllers/StudentController.cs" />
+      <File FileName="PracticeApplication/Model/StudentRepository.cs" />
+      <File FileName="PracticeApplication/Model/StudentDTO.cs" />
+      <File FileName="PracticeApplication/Controllers/DemoController.cs" />
+      <File FileName="PracticeApplication/MyLogging/LogToFile.cs" />
+      <File FileName="PracticeApplication/MyLogging/LogToServerMemory.cs" />
+      <File FileName="PracticeApplication/MyLogging/IMyLogger.cs" />
+      <File FileName="PracticeApplication/PracticeApplication.csproj" />
+      <File FileName="PracticeApplication/Data/Student.cs" />
+      <File FileName="PracticeApplication/Model/Student.cs" />
+      <File FileName="PracticeApplication/Data/CollegeDBContext.cs" Line="43" Column="33" />
+      <File FileName="PracticeApplication/appsettings.json" />
+      <File FileName="PracticeApplication/Migrations/20250409121323_InitialCreate.cs" />
+      <File FileName="PracticeApplication/Migrations/CollegeDBContextModelSnapshot.cs" Line="1" Column="1" />
+      <File FileName="PracticeApplication/Migrations/20250409174537_AddDataToDatabase.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PracticeApplication" expanded="True">
             <Node name="PracticeApplication">
-              <Node name="Controllers">
-                <Node name="StudentController.cs" selected="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True">
+                <Node name="20250409174537_AddDataToDatabase.cs" selected="True" />
               </Node>
-              <Node name="MyLogging" expanded="True" />
+              <Node name="Model" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
 </Properties>

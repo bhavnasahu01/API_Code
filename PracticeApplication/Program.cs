@@ -1,4 +1,6 @@
-﻿using PracticeApplication.MyLogging;
+﻿using Microsoft.EntityFrameworkCore;
+using PracticeApplication.Data;
+using PracticeApplication.MyLogging;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IMyLogger, LogToDB>();
+
+builder.Services.AddDbContext<CollegeDBContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("AppDb"));
+});
+
 
 //builder.Services.AddScoped<LogToDB>();
 var app = builder.Build();
