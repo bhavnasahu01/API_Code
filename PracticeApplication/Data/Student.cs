@@ -6,8 +6,8 @@ namespace PracticeApplication.Data
 {
 	public class Student
 	{
-        [Key] // Id as a primary key 
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // using for automatic increment the id, auto genrated 
+        //[Key] // Id as a primary key // later we can add in student config file 
+        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)] // using for automatic increment the id, auto genrated 
 
         public int Id { get; set; }
 
